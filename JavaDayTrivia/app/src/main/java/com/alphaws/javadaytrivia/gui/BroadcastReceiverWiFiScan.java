@@ -40,7 +40,7 @@ public class BroadcastReceiverWiFiScan extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        if(Commons.isLogged) {
+        /*if(Commons.isLogged) {
             if(Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR2) {
                 if (intent.getAction().equals(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION)) {
                     sharedPreferences = context.getSharedPreferences(Commons.MY_PREFERENCES, Context.MODE_PRIVATE);
@@ -84,9 +84,9 @@ public class BroadcastReceiverWiFiScan extends BroadcastReceiver {
                 /*}
                 scanAgain = false;*/
             }
-        }
+       // }
 
-    }
+    //}
 
     private void handleWifiAsBeacon(Context context, Beacon beacon) {
         listaBeacons = beaconControl.getAllBeacons(dataBaseHandler);
