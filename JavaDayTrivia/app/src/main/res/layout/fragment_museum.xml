@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/brown"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:text="Hola Monica te encuentras cerca de la obra de arte 'La Gioconda' de Leonardo Da Vinci"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/imageView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/monalisa"
+                    android:layout_gravity="center_horizontal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:id="@+id/fragment_museum_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFEEEC" />
+        </LinearLayout>
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar a Mis Favoritos"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/brown_button"/>
+</LinearLayout>

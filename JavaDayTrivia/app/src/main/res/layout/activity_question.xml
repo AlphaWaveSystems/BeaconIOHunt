@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_app">
+
+    <LinearLayout
+        android:id="@+id/activity_question_linearLayout_auditorium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_question_auditorium"
+            android:textColor="@color/white"
+            android:paddingLeft="@dimen/activity_message_textView_padding"
+            android:paddingRight="@dimen/activity_message_textView_padding"
+            android:textSize="@dimen/activity_message_textView_textSize"
+            android:layout_marginTop="@dimen/activity_message_textView_marginTop"/>
+
+        <EditText
+            android:id="@+id/activity_question_editText_auditorium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activity_question_editText_hint"
+            android:layout_marginLeft="@dimen/activity_message_textView_padding"
+            android:layout_marginRight="@dimen/activity_message_textView_padding"
+            android:layout_marginTop="@dimen/activity_question_editText_marginTop"
+            android:background="@color/white"
+            android:inputType="number"
+            android:ems="10"
+            android:paddingTop="@dimen/activity_login_padding"
+            android:paddingBottom="@dimen/activity_login_padding"
+            android:paddingLeft="@dimen/activity_login_padding"
+            android:paddingRight="@dimen/activity_login_padding" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_question_linearLayout_android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle_question"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_question_imageView_marginTop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_question_android"
+            android:textColor="@color/white"
+            android:paddingLeft="@dimen/activity_message_textView_padding"
+            android:paddingRight="@dimen/activity_message_textView_padding"
+            android:textSize="@dimen/activity_message_textView_textSize"
+            android:layout_marginTop="@dimen/activity_message_textView_marginTop"/>
+
+        <EditText
+            android:id="@+id/activity_question_editText_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activity_question_editText_hint"
+            android:layout_marginLeft="@dimen/activity_message_textView_padding"
+            android:layout_marginRight="@dimen/activity_message_textView_padding"
+            android:layout_marginTop="@dimen/activity_question_editTextAndroid_marginTop"
+            android:background="@color/white"
+            android:inputType="number"
+            android:ems="10"
+            android:paddingTop="@dimen/activity_login_padding"
+            android:paddingBottom="@dimen/activity_login_padding"
+            android:paddingLeft="@dimen/activity_login_padding"
+            android:paddingRight="@dimen/activity_login_padding" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_question_linearLayout_javaDev"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_question_javaDev1"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/activity_message_textView_padding"
+                android:paddingRight="@dimen/activity_message_textView_padding"
+                android:layout_marginLeft="@dimen/activity_question_textView_marginLeft"
+                android:textSize="@dimen/activity_message_textView_textSize"
+                android:layout_marginTop="@dimen/activity_message_textView_marginTop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_question_javaDev2"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/activity_message_textView_padding"
+                android:paddingRight="@dimen/activity_message_textView_padding"
+                android:layout_marginLeft="@dimen/activity_question_textView_marginLeft"
+                android:textSize="@dimen/activity_message_textView_textSize"
+                android:layout_marginTop="@dimen/activity_message_textView_marginTop"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_question_javaDev_question"
+            android:textColor="@color/white"
+            android:paddingLeft="@dimen/activity_message_textView_padding"
+            android:paddingRight="@dimen/activity_message_textView_padding"
+            android:layout_marginLeft="@dimen/activity_question_textViewQuestion_marginLeft"
+            android:textSize="@dimen/activity_message_textView_textSize"
+            android:layout_marginTop="@dimen/activity_message_textView_marginTop"/>
+
+        <EditText
+            android:id="@+id/activity_question_editText_javaDev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activity_question_editText_hint"
+            android:layout_marginLeft="@dimen/activity_message_textView_padding"
+            android:layout_marginRight="@dimen/activity_message_textView_padding"
+            android:layout_marginTop="@dimen/activity_question_editText_marginTop"
+            android:background="@color/white"
+            android:inputType="number"
+            android:ems="10"
+            android:paddingTop="@dimen/activity_login_padding"
+            android:paddingBottom="@dimen/activity_login_padding"
+            android:paddingLeft="@dimen/activity_login_padding"
+            android:paddingRight="@dimen/activity_login_padding" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_question_linearLayout_cafeteria"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_question_cafeteria"
+            android:textColor="@color/white"
+            android:paddingLeft="@dimen/activity_message_textView_padding"
+            android:paddingRight="@dimen/activity_message_textView_padding"
+            android:textSize="@dimen/activity_message_textView_textSize"
+            android:layout_marginTop="@dimen/activity_message_textView_marginTop"/>
+
+        <EditText
+            android:id="@+id/activity_question_editText_cafeteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activity_question_editText_hint"
+            android:layout_marginLeft="@dimen/activity_message_textView_padding"
+            android:layout_marginRight="@dimen/activity_message_textView_padding"
+            android:layout_marginTop="@dimen/activity_question_editText_marginTop"
+            android:background="@color/white"
+            android:inputType="text"
+            android:ems="10"
+            android:paddingTop="@dimen/activity_login_padding"
+            android:paddingBottom="@dimen/activity_login_padding"
+            android:paddingLeft="@dimen/activity_login_padding"
+            android:paddingRight="@dimen/activity_login_padding" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_question_button_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:textSize="@dimen/activity_login_button_textSize"
+        android:text="@string/activity_question_button"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

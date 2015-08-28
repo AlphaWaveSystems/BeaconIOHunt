@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_app" >
+
+    <ImageView
+        android:layout_width="@dimen/activity_message_imageView_width"
+        android:layout_height="@dimen/activity_message_imageView_height"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:background="@drawable/beacon_logo_splash" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/activity_message_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/activity_message_hi"
+            android:textSize="@dimen/activity_message_textView_textSize"
+            android:textColor="@color/white"
+            android:paddingLeft="@dimen/activity_message_textView_padding"
+            android:paddingRight="@dimen/activity_message_textView_padding" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activity_message_button_seeQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:textSize="@dimen/activity_login_button_textSize"
+        android:text="@string/activity_message_button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"/>
+
+
+</LinearLayout>

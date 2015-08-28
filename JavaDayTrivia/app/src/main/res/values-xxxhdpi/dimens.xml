@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity Login -->
+    <dimen name="activity_login_margin">10dp</dimen>
+    <dimen name="activity_login_padding">4dp</dimen>
+    <dimen name="activity_login_button_textSize">17sp</dimen>
+    <dimen name="activity_login_info_textSize">16sp</dimen>
+
+    <!-- Activity Main -->
+    <dimen name="activity_main_marginBottom">10dp</dimen>
+    <dimen name="activity_main_marginLeftRight">8dp</dimen>
+    <dimen name="activity_main_button_textSize">20sp</dimen>
+    <dimen name="activity_main_imageView_marginBottom">30dp</dimen>
+
+    <!-- Activity Message -->
+    <dimen name="activity_message_imageView_width">220dp</dimen>
+    <dimen name="activity_message_imageView_height">150dp</dimen>
+    <dimen name="activity_message_textView_padding">8dp</dimen>
+    <dimen name="activity_message_textView_textSize">23sp</dimen>
+
+    <!-- Activity Question -->
+    <dimen name="activity_message_textView_marginTop">18dp</dimen>
+    <dimen name="activity_question_editText_marginTop">30dp</dimen>
+    <dimen name="activity_question_textView_marginLeft">50dp</dimen>
+    <dimen name="activity_question_textViewQuestion_marginLeft">145dp</dimen>
+    <dimen name="activity_question_imageView_marginTop">20dp</dimen>
+    <dimen name="activity_question_editTextAndroid_marginTop">10dp</dimen>
+
+
+</resources>

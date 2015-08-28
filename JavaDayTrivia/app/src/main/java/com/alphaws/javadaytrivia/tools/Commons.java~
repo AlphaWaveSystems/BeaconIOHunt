@@ -1,0 +1,43 @@
+package com.alphaws.javadaytrivia.tools;
+
+
+public class Commons {
+
+    public static String CARRIER;
+    public static final String BEACONS_UUID_AWS = "f7826da6-4fa2-4e98-8024-bc5b71e0893e";
+    public static final String MY_PREFERENCES = "JavaDevDayPreferences";
+    public static final String WHERE_AM_I = "WHERE_AM_I";
+    public static final String CONFERENCES = "CONFERENCES";
+    public static final String ANDROID = "ANDROID";
+    public static final String FOOD = "FOOD";
+    public static final String WHERE_AM_I_BEACON_FOUND = "WHERE_AM_I_BEACON_FOUND";
+    public static final String CONFERENCES_BEACON_FOUND = "CONFERENCES_BEACON_FOUND";
+    public static final String ANDROID_BEACON_FOUND = "ANDROID_BEACON_FOUND";
+    public static final String FOOD_BEACON_FOUND = "FOOD_BEACON_FOUND";
+    public static final String WHERE_AM_I_CORRECT = "WHERE_AM_I_CORRECT";
+    public static final String CONFERENCES_CORRECT = "CONFERENCES_CORRECT";
+    public static final String ANDROID_CORRECT = "ANDROID_CORRECT";
+    public static final String FOOD_CORRECT = "FOOD_CORRECT";
+    public static final String SERVICE_SATARTED = "SERVICE_SATARTED";
+    public static final String LOGIN = "LOGIN";
+    public static final String BEACONSINDATABASE = "BEACONSINDATABASE";
+    public static final String MAJOR_1 = "25030";
+    public static final String MINOR_1 = "2941";
+    public static final String MAJOR_2 = "28692";
+    public static final String MINOR_2 = "57454";
+    public static final String MAJOR_3 = "46115";
+    public static final String MINOR_3 = "42364";
+    public static final String MAJOR_4 = "15442";
+    public static final String MINOR_4 = "29258";
+    public static final String FROMNOTIFICATION = "FROMNOTIFICATION";
+    public static final String WHERE_AM_I_UPDATE = "WHERE_AM_I_UPDATE";
+    public static final String CONFERENCES_UPDATE = "CONFERENCES_UPDATE";
+    public static final String ANDROID_UPDATE = "ANDROID_UPDATE";
+    public static final String FOOD_UPDATE = "FOOD_UPDATE";
+    public static boolean isLogged = false;
+    public static final String WIFIASBEACON1 = "28:c6:8e:c2:b4:70";
+    public static final String WIFIASBEACON2 = "b";
+    public static final String WIFIASBEACON3 = "c";
+    public static final String WIFIASBEACON4 = "d";
+
+}

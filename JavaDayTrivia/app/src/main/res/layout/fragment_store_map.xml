@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView9"
+        android:src="@drawable/plano" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#82807F"
+        android:textColor="@android:color/white"
+        android:text="ALESSANDRO´S" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#82807F"
+        android:text="LAYOUT"
+        android:textColor="@android:color/white"/>
+
+</FrameLayout>

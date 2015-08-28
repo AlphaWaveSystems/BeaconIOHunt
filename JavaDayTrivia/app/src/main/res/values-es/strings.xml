@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ajustes</string>
+    <string name="activity_login_email">Correo</string>
+    <string name="activity_login_lastName">Apellido</string>
+    <string name="activity_login_name">Nombre</string>
+    <string name="activity_login_register">REGISTRARSE</string>
+    <string-array name="occupation_array">
+        <item>Estudiante</item>
+        <item>Desarrollador</item>
+        <item>Emprendedor</item>
+    </string-array>
+    <string name="activity_login_error_email_blank">¡El nombre no puede estar vacío!</string>
+    <string name="activity_login_error_lastName_blank">¡El apellido no puede estar vacío!</string>
+    <string name="activity_login_error_name_blank">¡El correo no puede estar vacío!</string>
+    <string name="activity_login_info">*¡Datos incorrectos no participarán en la rifa!*</string>
+    <string name="activity_main_participate">PARTICIPA POR UN WEARABLE</string>
+    <string name="activity_main_buttons">RESPONDER</string>
+    <string name="activity_parent_connectivity_cancel">Cancelar</string>
+    <string name="activity_parent_connectivity_ok">Conectar usando WiFi</string>
+    <string name="activity_parent_connectivity_title">Existe un problema con tu conexión a internet.</string>
+    <string name="activity_parent_connectivity_detail">Favor de conectarte a internet y regresar a la aplicación.</string>
+    <string name="activity_question_button">CONSTESTAR</string>
+    <string name="activity_message_button">VER PREGUNTA</string>
+    <string name="activity_message_javaDevMessage">Te invitamos a participar en la rifa de una iPad, iPod y una Tableta.</string>
+    <string name="activity_message_auditoriumMessage">Durante este día tendrás la oportunidad de presenciar ponencias sobre tu lenguaje preferido JAVA.</string>
+    <string name="activity_message_android">SO Android.</string>
+    <string name="activity_message_androidMessage">Aprende un poco más sobre lo que puede ofrecerte este Sistema Operativo y el lenguaje JAVA.</string>
+    <string name="activity_message_auditorium">Auditorio Pedro Arrupe.</string>
+    <string name="activity_message_cafeteria">Cafetería del Iteso.</string>
+    <string name="activity_message_cafeteriaMessage">¿Deseas poner a prueba tus habilidades con una trivia?</string>
+    <string name="activity_message_hi">Hola</string>
+    <string name="activity_message_javaDev">Java Developer Day 2015.</string>
+    <string name="activity_message_welcome">Bienvenido al</string>
+    <string name="activity_message_welcomeAndroid">Te encuentras en el Aula dedicada al </string>
+    <string name="activity_message_welcomeCafeteria">Bienvenido a la</string>
+    <string name="notification_android">Sesiones Android</string>
+    <string name="notification_auditorium">Bienvenido al Java Dev Day</string>
+    <string name="notification_cafeteria">Bienvenido a la Cafetería</string>
+    <string name="notification_javaDev">Bienvenido al Auditorio Pedro Arrupe</string>
+    <string name="activity_question_auditorium">¿Que número continua la serie?\n7\n14\n16\n32</string>
+    <string name="activity_question_cafeteria">Suma de 3 cifras iguales da como resultado 60.\n\nNOTA: No es 20 + 20 + 20\n\n\n?  +  ?  +  ?  =  60</string>
+    <string name="activity_question_editText_hint">Respuesta</string>
+    <string name="activity_question_android">¿Qué número corresponde?</string>
+    <string name="activity_main_textView_whereAmI">¿Dónde estoy?\n</string>
+    <string name="activity_main_textView_conferences">¿Qué tal estarán las conferencias?</string>
+    <string name="activity_main_textView_android">¿Beacons con\nAndroid?</string>
+    <string name="activity_main_textView_food">¿Las cosas?\n</string>
+    <string name="activity_question_error_answer_blank">¡La respuesta no puede estar vacía!</string>
+    <string name="activity_question_correct">Correcto</string>
+    <string name="activity_question_incorrect">Incorrecto, por favor intenta de nuevo.</string>
+    <string name="progressDialog_message">Subiendo información&#8230;</string>
+    <string name="progressDialog_title">Por favor espere&#8230;</string>
+    <string name="alertDialog_cancel">Cancelar</string>
+    <string name="alertDialog_detail">Ha habido un error subiendo la información. ¿Qué deseas hacer?</string>
+    <string name="alertDialog_ok">Intentar de nuevo</string>
+    <string name="activity_login_error_email_wrong">¡Correo inválido!</string>
+    <string name="activity_login_error_email_alreadyParticipating">El correo ya se encuentra participando!</string>
+    <string name="activity_main_useCases">Casos de Uso</string>
+    <string name="activity_main_congratulations">Felicidades!, Ahora te encuentras participando por un Premio. </string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="hello_world">¡Hola mundo!</string>
+    <string name="title_section1">Sección 1</string>
+    <string name="title_section2">Sección 2</string>
+    <string name="title_section3">Sección 3</string>
+</resources>

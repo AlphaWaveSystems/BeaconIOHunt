@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/activity_main_button_participate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_participate"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_main_button_textSize"
+        android:background="@drawable/red_button"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/activity_main_marginBottom"
+        android:layout_marginLeft="@dimen/activity_main_marginLeftRight"
+        android:layout_marginRight="@dimen/activity_main_marginLeftRight"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/activity_main_imageView_whereAmI"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beaconio"
+                    android:paddingBottom="@dimen/activity_main_imageView_marginBottom" />
+
+                <TextView
+                    android:id="@+id/activity_main_textView_whereAmI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_textView_whereAmI"
+                    android:textColor="@color/blue"
+                    android:paddingLeft="@dimen/activity_message_textView_padding"
+                    android:paddingRight="@dimen/activity_message_textView_padding"
+                    android:textSize="16sp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="@dimen/activity_message_textView_marginTop" />
+
+                <Button
+                    android:id="@+id/activity_main_button_whereAmI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_buttons"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/activity_main_button_textSize"
+                    android:background="@drawable/red_button"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_main_marginLeftRight"
+                    android:layout_marginRight="@dimen/activity_main_marginLeftRight"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/activity_main_imageView_conferences"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beaconio"
+                    android:paddingBottom="@dimen/activity_main_imageView_marginBottom" />
+
+                <TextView
+                    android:id="@+id/activity_main_textView_conferences"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_textView_conferences"
+                    android:textColor="@color/blue"
+                    android:paddingLeft="@dimen/activity_message_textView_padding"
+                    android:paddingRight="@dimen/activity_message_textView_padding"
+                    android:textSize="16sp"
+                    android:layout_gravity="bottom|center"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/activity_message_textView_marginTop" />
+
+                <Button
+                    android:id="@+id/activity_main_button_conferences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_buttons"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/activity_main_button_textSize"
+                    android:background="@drawable/red_button"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_main_marginLeftRight"
+                    android:layout_marginRight="@dimen/activity_main_marginLeftRight"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/activity_main_imageView_android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beaconio"
+                    android:paddingBottom="@dimen/activity_main_imageView_marginBottom" />
+
+                <TextView
+                    android:id="@+id/activity_main_textView_android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_textView_android"
+                    android:textColor="@color/blue"
+                    android:paddingLeft="@dimen/activity_message_textView_padding"
+                    android:paddingRight="@dimen/activity_message_textView_padding"
+                    android:textSize="16sp"
+                    android:layout_gravity="bottom|center"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/activity_message_textView_marginTop" />
+
+                <Button
+                    android:id="@+id/activity_main_button_android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_buttons"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/activity_main_button_textSize"
+                    android:background="@drawable/red_button"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_main_marginLeftRight"
+                    android:layout_marginRight="@dimen/activity_main_marginLeftRight"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/activity_main_imageView_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beaconio"
+                    android:paddingBottom="@dimen/activity_main_imageView_marginBottom" />
+
+                <TextView
+                    android:id="@+id/activity_main_textView_food"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_textView_food"
+                    android:textColor="@color/blue"
+                    android:paddingLeft="@dimen/activity_message_textView_padding"
+                    android:paddingRight="@dimen/activity_message_textView_padding"
+                    android:textSize="16sp"
+                    android:layout_gravity="bottom|center"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/activity_message_textView_marginTop" />
+
+                <Button
+                    android:id="@+id/activity_main_button_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_buttons"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/activity_main_button_textSize"
+                    android:background="@drawable/red_button"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_main_marginLeftRight"
+                    android:layout_marginRight="@dimen/activity_main_marginLeftRight"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

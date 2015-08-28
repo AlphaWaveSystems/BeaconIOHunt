@@ -1,0 +1,88 @@
+<resources>
+    <!-- App -->
+    <string name="app_name" translatable="false">BeaconIO Hunt</string>
+    <string name="app_name2" translatable="false">JavaDevDay</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity Parent -->
+    <string name="activity_parent_connectivity_title">There is a problem with your internet connection.</string>
+    <string name="activity_parent_connectivity_detail">Please connect to the internet and then return to the app.</string>
+    <string name="activity_parent_connectivity_ok">Connect using WiFi</string>
+    <string name="activity_parent_connectivity_cancel">Cancel</string>
+
+    <!-- Activity Login -->
+    <string name="activity_login_name">Name</string>
+    <string name="activity_login_lastName">Last Name</string>
+    <string name="activity_login_email">Email</string>
+    <string name="activity_login_register">REGISTER</string>
+    <string name="activity_login_error_name_blank">Name cannot be left blank!</string>
+    <string name="activity_login_error_lastName_blank">Last Name cannot be left blank!</string>
+    <string name="activity_login_error_email_blank">Email cannot be left blank!</string>
+    <string name="activity_login_error_email_wrong">Invalid email!</string>
+    <string name="activity_login_error_email_alreadyParticipating">Email already participating!</string>
+    <string name="activity_login_info">*Incorrect data will not participate in the draw.!*</string>
+    <string-array name="occupation_array">
+        <item>Student</item>
+        <item>Developer</item>
+        <item>Entrepreneur</item>
+    </string-array>
+
+    <!-- Activity Main -->
+    <string name="activity_main_participate">PARTICIPATE FOR A WEARABLE</string>
+    <string name="activity_main_buttons">ANSWER</string>
+    <string name="activity_main_textView_whereAmI">Where am I?\n</string>
+    <string name="activity_main_textView_conferences">How will the\nconferences be?</string>
+    <string name="activity_main_textView_android">Beacons with\nAndroid?</string>
+    <string name="activity_main_textView_food">Things?\n</string>
+    <string name="activity_main_useCases">Use Cases</string>
+    <string name="activity_main_congratulations">Congrats!, You are now participating for a Price.</string>
+
+    <!-- Activity Message -->
+    <string name="activity_message_button">SEE QUESTION</string>
+    <string name="activity_message_hi">Hi</string>
+    <string name="activity_message_welcome">Welcome to the</string>
+    <string name="activity_message_welcomeCafeteria">Welcome to the</string>
+    <string name="activity_message_welcomeAndroid">You are in the classroom dedicated to the</string>
+    <string name="activity_message_javaDev">Java Developer Day 2015.</string>
+    <string name="activity_message_auditorium">Pedro Arrupe Auditorium.</string>
+    <string name="activity_message_cafeteria">Iteso\'s Cafeteria.</string>
+    <string name="activity_message_android">Android OS.</string>
+    <string name="activity_message_javaDevMessage">We invite you to participate in the draw for an iPad, iPod and Tablet.</string>
+    <string name="activity_message_auditoriumMessage">During this day you will have the opportunity to attend presentations of your preferred language JAVA.</string>
+    <string name="activity_message_cafeteriaMessage">Would you like to test your skills with a trivia?</string>
+    <string name="activity_message_androidMessage">Learn a little more about what  this OS and language JAVA can offer to you.</string>
+
+    <!-- Notification's -->
+    <string name="notification_auditorium">Welcome to the Java Dev Day</string>
+    <string name="notification_javaDev">Welcome to the Pedro Arrupe Auditorium</string>
+    <string name="notification_android">Android Sessions</string>
+    <string name="notification_cafeteria">Welcome to the Cafeteria</string>
+
+    <!-- Activity Question -->
+    <string name="activity_question_button">ANSWER</string>
+    <string name="activity_question_javaDev1" translatable="false">8809  = 6\n5555  = 0\n7161  = 1\n8193 = 3\n2172  = 0\n8098  = 6\n6666  = 4\n1012 = 1\n1111   = 0\n7777 = 0</string>
+    <string name="activity_question_javaDev2" translatable="false">3213  = 0\n9999 = 4\n7662  = 2\n7756 = 1\n9313  = 1\n6855 = 3\n0000  = 4\n9881 = 5\n2222 = 0\n5533 = 0 </string>
+    <string name="activity_question_javaDev_question" translatable="false">2581 = </string>
+    <string name="activity_question_auditorium">What number continues the series?\n7\n14\n16\n32</string>
+    <string name="activity_question_cafeteria">Sum of 3 equal figures results in 60.\n\nNOTE: It is not 20 + 20 + 20\n\n\n?  +  ?  +  ?  =  60</string>
+    <string name="activity_question_editText_hint">Answer</string>
+    <string name="activity_question_android">What number corresponds?</string>
+    <string name="activity_question_error_answer_blank">The answer cannot be left blank!</string>
+    <string name="activity_question_incorrect">Incorrect, please try again.</string>
+    <string name="activity_question_correct">Correct</string>
+
+    <!-- Commons -->
+    <string name="progressDialog_title">Please wait&#8230;</string>
+    <string name="progressDialog_message">Uploading data&#8230;</string>
+    <string name="alertDialog_detail">There was an error uploading the information. What do you want to do?</string>
+    <string name="alertDialog_ok">Try again</string>
+    <string name="alertDialog_cancel">Cancel</string>
+
+    <!-- Use Cases -->
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
