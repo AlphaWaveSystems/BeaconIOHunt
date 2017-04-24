@@ -255,7 +255,7 @@ public class ActivityLogin extends ActivityParent implements AdapterView.OnItemS
             final UserControl userControl = new UserControl(ActivityLogin.this);
             final DataBaseHandler dataBaseHandler = new DataBaseHandler(ActivityLogin.this);
             final JSonClient jSonClient = new JSonClient();
-            final String url = "http://beaconio.com/mobile/rest/json?id=2100&type=2100&lat=12313123&lng=12313131313&" +
+            final String url = "URL_TO_SERVER" +
                     "action=1&email="+ Uri.encode(email) + "&name=" + Uri.encode(name) + "&lname=" + Uri.encode(lastName) +
                     "&work=" + Uri.encode(String.valueOf(occupation)) + "&stamp=JAVADAY";
             final Thread thread = new Thread(new Runnable() {
@@ -311,68 +311,4 @@ public class ActivityLogin extends ActivityParent implements AdapterView.OnItemS
 
         }
     }
-
-    /*private class LoginAsyncTask extends AsyncTask<Void, Void, Integer> {
-
-        private String name, lastName, email;
-        private UserControl userControl;
-        private long inserted;
-        private DataBaseHandler dataBaseHandler;
-        private JSonClient jSonClient;
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            try {
-                progressDialog = ProgressDialog.show(ActivityLogin.this, getString(R.string.progressDialog_title), getString(R.string.progressDialog_message), true, false);
-                name = editText_Name.getText().toString();
-                lastName = editText_LastName.getText().toString();
-                email = editText_Email.getText().toString();
-            } catch(Exception e) {}
-        }
-
-        @Override
-        protected Integer doInBackground(Void... params) {
-            try {
-                userControl = new UserControl(ActivityLogin.this);
-                dataBaseHandler = new DataBaseHandler(ActivityLogin.this);
-                String url = "http://beaconio.com/mobile/rest/json?id=2100&type=2100&lat=12313123&lng=12313131313&" +
-                             "action=1&email="+ Uri.encode(email) + "&name=" + Uri.encode(name) + "&lname=" + Uri.encode(lastName) +
-                             "&work=" + Uri.encode(String.valueOf(occupation)) + "&stamp=JAVADAY";
-                jSonClient = new JSonClient();
-                String stream = jSonClient.GetHTTPData(url);
-                JSONObject oJsonObject = new JSONObject(stream);
-                int knownBean = oJsonObject.getInt("knownBean");
-                String errorMessage = oJsonObject.getString("errorMessage");
-                if(knownBean == 1) {
-                    return 1;
-                } else {
-                    Log.v("LOGIN", errorMessage);
-                    return 2;
-                }
-            }catch(Exception e) {
-                Log.v("LOGIN", e.getMessage());
-            }
-
-            return 0;
-        }
-
-        @Override
-        protected void onPostExecute(Integer result) {
-            super.onPostExecute(null);
-            progressDialog.cancel();
-            if(result == 1) {
-                inserted = userControl.addUser(new User(name, lastName, email, occupation), dataBaseHandler);
-                setLogged();
-                Intent intent = new Intent(ActivityLogin.this, ActivityMain.class);
-                startActivity(intent);
-                finish();
-            } else {
-                if(result == 2)
-                    Toast.makeText(ActivityLogin.this, getString(R.string.activity_login_error_email_alreadyParticipating), Toast.LENGTH_LONG).show();
-                else
-                    showErrorDialog(ActivityLogin.this, getString(R.string.app_name2), getString(R.string.alertDialog_detail), getString(R.string.alertDialog_ok));
-            }
-        }
-    }*/
 }
