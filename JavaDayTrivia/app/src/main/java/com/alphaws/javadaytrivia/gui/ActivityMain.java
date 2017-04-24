@@ -353,7 +353,7 @@ public class  ActivityMain extends ActivityParent {
             DataBaseHandler dataBaseHandler = new DataBaseHandler(ActivityMain.this);
             final ArrayList<User> users = userControl.getAllUsers(dataBaseHandler);
             final JSonClient jSonClient = new JSonClient();
-            final String urlString = "http://beaconio.com/mobile/rest/json?id=2100&type=2100&lat=12313123&lng=12313131313&action=2" +
+            final String urlString = "URL_TO_SERVER" +
                     "&email=" + Uri.encode(users.get(0).getEmail()) + "&stamp=JAVADAY";
             final Thread thread = new Thread(new Runnable() {
                 @Override
@@ -405,85 +405,6 @@ public class  ActivityMain extends ActivityParent {
         }
     }
 
-    /*private class MainAsyncTask extends AsyncTask<Void, Void, Integer> {
-
-        private UserControl userControl;
-        private DataBaseHandler dataBaseHandler;
-        private ArrayList<User> users;
-        private JSonClient jSonClient;
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            progressDialog = ProgressDialog.show(ActivityMain.this,getString(R.string.progressDialog_title), getString(R.string.progressDialog_message), true, true);
-            progressDialog.setCancelable(true);
-            progressDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                @Override
-                public void onCancel(DialogInterface dialog) {
-                    cancel(true);
-                }
-            });
-            button_Participate.setEnabled(true);
-            try {
-                userControl = new UserControl(ActivityMain.this);
-                dataBaseHandler = new DataBaseHandler(ActivityMain.this);
-                users = userControl.getAllUsers(dataBaseHandler);
-            } catch (Exception e) {
-                Log.v("MAIN", e.getMessage());
-            } finally {
-                Log.v("MAIN", "ACABE PREEXECUTE");
-            }
-        }
-
-        @Override
-        protected void onCancelled() {
-            super.onCancelled();
-        }
-
-        @Override
-        protected void onCancelled(Integer integer) {
-            Log.v("MAIN", "CANCELARON ASYNCTASK");
-            super.onCancelled(integer);
-        }
-
-        @Override
-        protected Integer doInBackground(Void... params) {
-            try {
-                Log.v("MAIN", "SI ENTRO A DO IN BACK...");
-                if(!isCancelled()) {
-                    String urlString = "http://beaconio.com/mobile/rest/json?id=2100&type=2100&lat=12313123&lng=12313131313&action=2" +
-                            "&email=" + Uri.encode(users.get(0).getEmail()) + "&stamp=JAVADAY";
-                    Log.v("MAIN", urlString);
-                    jSonClient = new JSonClient();
-                    String stream = jSonClient.GetHTTPData(urlString);
-                    JSONObject oJsonObject = new JSONObject(stream);
-                    int knownBean = oJsonObject.getInt("knownBean");
-                    String errorMessage = oJsonObject.getString("errorMessage");
-                    if (knownBean == 1) {
-                        return 1;
-                    } else {
-                        Log.v("MAIN", errorMessage);
-                    }
-                }
-            }catch(Exception e) {
-                Log.v("MAIN", e.getMessage());
-            }
-
-            return 0;
-        }
-
-        @Override
-        protected void onPostExecute(Integer result) {
-            super.onPostExecute(null);
-            progressDialog.cancel();
-            if(result == 1) {
-                Toast.makeText(ActivityMain.this, getString(R.string.activity_main_congratulations), Toast.LENGTH_LONG).show();
-                button_Participate.setText(getString(R.string.activity_main_useCases));
-                setAlreadyParticipating();
-            } else {
-                showErrorDialog(ActivityMain.this, getString(R.string.app_name2), getString(R.string.alertDialog_detail), getString(R.string.alertDialog_ok));
-            }
-        }
-    }*/
+  
 
 }
